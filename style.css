@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", cursive;
+}
+.hero {
+  background-color: #f08e80;
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 16px;
+  font-size: 1.2rem;
+  transition: 0.2s all;
+}
+.links a:hover {
+  opacity: 0.85;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+.navbar p {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+.navbar .contact {
+  background-color: white;
+  color: #f08e80;
+  border: none;
+  font-size: 20px;
+  padding: 16px 24px;
+  transition: 0.2s all;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .contact:hover {
+  opacity: 0.85;
+}
+.hero-content {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  padding: 15px 0px;
+  letter-spacing: 1.5px;
+}
+.two-columns {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.two-columns > p {
+  width: 50%;
+  float: left;
+}
+.two-columns ul {
+  width: 25%;
+  list-style: none;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+.blog-post {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.blog-content .blogs {
+  width: 50%;
+  float: right;
+}
+.blogs > p {
+  margin: 8px 0;
+}
+.blog-head {
+  font-size: 1.5rem;
+}
+.date {
+  font-size: 0.9rem;
+  color: grey;
+}
+.tech {
+  font-size: 2rem;
+  margin: 16px 0 10px 0;
+}
+.blog-post p.date {
+  margin-bottom: 32px;
+}
+p.blog-head {
+  margin-top: 17px;
+}
+.events {
+  background-color: #fdf0e6;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 0;
+}
+.event-content {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.event-content .event-list {
+  width: 50%;
+  float: right;
+}
+.speak {
+  font-size: 2rem;
+  margin: 10px 0 30px 0;
+}
+.event-title {
+  font-size: 1.5rem;
+}
+.event-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+.event-location{
+  font-size: 1rem;
+}
+.event-list > p{
+  margin: 12px 0;
+}
+.event-list p:nth-child(3n){
+  margin-bottom: 25px;
+}
+footer{
+  height: 200px;
+  background-color: black;
+  width: 100%;
+}
+footer img{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.imgs{
+  text-align: center;
+}
+.imgs p{
+  color: white;
+}
